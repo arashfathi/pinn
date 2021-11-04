@@ -272,4 +272,4 @@ error = u_pinn.numpy().reshape(xg.shape) - u_exact
 # 4. visualize results
 visualize_solution_field(domain, u_pinn.numpy().reshape(xg.shape), 'pinn estimation')
 visualize_solution_field(domain, u_exact, 'exact solution')
-visualize_solution_field(domain, error, 'estimation_error')
+visualize_solution_field(domain, error, 'estimation error')
